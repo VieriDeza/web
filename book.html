@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Básico -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Metas móviles -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Metas del sitio -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/shopping-cart-fill.png" type="">
+
+  <title> Comercial Vieri </title>
+
+
+  <!-- CSS de núcleo de arranque -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!--Hoja de estilos de Owl Slider -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- Selección agradable  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
+  <!-- Estilo impresionante de fuente -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Estilos personalizados -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- Estilo responsivo -->
+  <link href="css/responsive.css" rel="stylesheet" />
+  <link rel="stylesheet" href="form.css">
+
+  <link rel="stylesheet" href="button.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body class="sub_page">
+
+  <div class="hero_area">
+    <div class="bg-box">
+      <video autoplay loop muted>
+        <source src="images/hero-bg.mp4" type="video/mp4">
+      </video>
+    </div>
+    <!-- Se inicia la sección de encabezado -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand">
+            <span>
+              CV
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  mx-auto ">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"><strong>Inicio</strong> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html"><strong>Productos</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"><strong>Nosotros</strong></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="book.html"><strong>Pedidos</strong> <span class="sr-only">(current)</span> </a>
+              </li>
+            </ul>
+            <div class="facebook-circle">
+              <a href="https://www.facebook.com/profile.php?id=100063717566167&mibextid=ZbWKwL" target="_blank">
+                <img src="images/facebook-circle-fill.svg" alt="Facebook">
+              </a>
+            </div>            
+            <div class="whatsapp-circle">
+              <a href="https://api.whatsapp.com/send?phone=943327774" target="_blank">
+                <img src="images/whatsapp-fill.svg" alt="WhatsApp">
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Sección de encabezado final -->
+  </div>
+
+  <!-- Sección del formulario -->
+  <section class="book_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Solicita un pedido
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form_container">
+            <div class="container">
+              <form method="POST" action="procesar_compra.php">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+              
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+              
+                <label for="direccion">Dirección de envío:</label>
+                <input type="text" id="direccion" name="direccion" required>
+              
+                <label for="producto">Producto:</label>
+                <input type="text" id="producto" name="producto" required>
+              
+                <label for="cantidad">Cantidad:</label>
+                <input type="number" id="cantidad" name="cantidad" required>
+              
+                <button type="submit">Realizar compra</button>
+              </form>
+              
+            </div>
+            
+            
+            
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="map_container ">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4313.880575439603!2d-78.82133723051057!3d-7.482259521915405!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xafce0430a605e038!2sComercial%20Vieri!5e0!3m2!1ses-419!2spe!4v1677357815388!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Fin de seccion -->
+
+  <!-- sección de pie de página -->
+  <footer class="footer_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 footer-col">
+          <div class="footer_contact">
+            <h4>
+              Contacta con nosotros
+            </h4>
+            <div class="contact_link_box">
+              <a href="https://goo.gl/maps/HX6v7vES54vWZg9w5?coh=178572&entry=tt" target="_blank">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Ubicación
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Llamar +51 943327774
+                </span>
+              </a>
+              <a href=mailto:demo@gmail.com> 
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  comercialvieri@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <div class="footer_detail">
+
+            <div class="footer_social">
+              <a href="https://www.facebook.com/profile.php?id=100063717566167&mibextid=ZbWKwL" target="_blank">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="https://wa.me/943327774?text=Hola,%20me%20gustaría%20contactarte" target="_blank">
+                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 footer-col">
+          <h4 class="text-horario">
+            Horario de apertura
+          </h4>
+          <p>
+            <strong>Todos los dias</strong>
+          </p>
+          <p class="text-horario">
+            Lunes 06.00 am - 21.00 pm<br>
+            Martes 06.00 am - 21.00 pm<br>
+            Miércoles 06.00 am - 21.00 pm<br>
+            Jueves 06.00 am - 21.00 pm<br>
+            Viernes 06.00 am - 12.00 pm<br>
+            Sábado 06.00 am - 12.00 pm<br>
+            Domingo 06.00 am - 12.00 pm
+          </p>
+        </div>
+      </div>
+      <div class="footer-info">
+        <p class="derechos-reservados">
+          &copy; <span id="displayYear"></span> TODOS LOS DERECHOS RESERVADOS POR
+          <a href=>COMERCIAL VIERI</a><br><br>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- sección de pie de página -->
+
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+  <!-- arranque js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- isotope js -->
+  <script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
+  <!-- nice select -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+  <!-- Google Map -->
+  <!-- End Google Map -->
+
+</body>
+
+</html>
